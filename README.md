@@ -6,4 +6,4 @@ Resources:
 
 - Installation Steps
 - Config Samples
-- Data Samples
+- Data Samples.
