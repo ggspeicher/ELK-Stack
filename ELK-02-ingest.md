@@ -34,4 +34,12 @@ output {
 # Run Logstash
 
 
-/opt/logstash/bin/logstash -f ~/github/ELK-Stack/logstash-apple.conf
+
+# export ELK_STACK_TALK_HOME= ~/github/ELK-Stack
+export ELK_STACK_TALK_HOME=~/Desktop/DevOps/code/github/Pabloin/ELK-Stack
+
+
+
+ 
+   /usr/local/bin/logstash -f ${ELK_STACK_TALK_HOME}/logstash/logstash-apple.conf
+/opt/logstash/bin/logstash -f ${ELK_STACK_TALK_HOME}/logstash/logstash-apple.conf
