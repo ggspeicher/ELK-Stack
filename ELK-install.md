@@ -12,9 +12,10 @@ https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-lo
     - http://localhost:9200/_nodes?pretty
     - http://localhost:9200/tutorial/helloworld/1?pretty
     - http://localhost:5601
-    
+
 
 
 **Sample Data:**
 
+https://raw.githubusercontent.com/Pabloin/ELK-Stack/install-steps/Data/APPL.csv
 
