@@ -13,11 +13,11 @@ filter {
       separator => ","
       columns => ["Date","Open","High","Low","Close","Volume","Adj Close"]
   }
-  mutate {convert =&gt; ["High", "float"]}
-  mutate {convert =&gt; ["Open", "float"]}
-  mutate {convert =&gt; ["Low", "float"]}
-  mutate {convert =&gt; ["Close", "float"]}
-  mutate {convert =&gt; ["Volume", "float"]}
+  mutate {convert => ["High", "float"]}
+  mutate {convert => ["Open", "float"]}
+  mutate {convert => ["Low", "float"]}
+  mutate {convert => ["Close", "float"]}
+  mutate {convert => ["Volume", "float"]}
 }
 output {  
     elasticsearch {
@@ -33,9 +33,7 @@ output {
 
 # Run Logstash
 
-
-
-# export ELK_STACK_TALK_HOME= ~/github/ELK-Stack
+# export ELK_STACK_TALK_HOME=~/github/ELK-Stack
 export ELK_STACK_TALK_HOME=~/Desktop/DevOps/code/github/Pabloin/ELK-Stack
 
 
