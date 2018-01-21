@@ -39,5 +39,5 @@ export ELK_STACK_TALK_HOME=~/Desktop/DevOps/code/github/Pabloin/ELK-Stack
 
 
  
-   /usr/local/bin/logstash -f ${ELK_STACK_TALK_HOME}/logstash/logstash-apple.conf
-/opt/logstash/bin/logstash -f ${ELK_STACK_TALK_HOME}/logstash/logstash-apple.conf
+   /usr/local/bin/logstash -f ${ELK_STACK_TALK_HOME}/Logstash/logstash-apple-csv.conf
+/opt/logstash/bin/logstash -f ${ELK_STACK_TALK_HOME}/Logstash/logstash-apple-csv.conf
